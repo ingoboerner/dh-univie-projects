@@ -1,0 +1,209 @@
+# DH-Projekte an der Universität Wien
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+# DH-Projekte Universität Wien Data:
+@prefix p: <http://no-url-yet.univie.ac.at/project#> .
+
+#andere Vocabularies:
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+#TaDiRAH - Taxonomy of Digital Research Activities in the Humanities
+@prefix td: <http://tadirah.dariah.eu/vocab/> .
+
+# FRAPO, the Funding, Research Administration and Projects Ontology
+@prefix frapo: <http://purl.org/cerif/frapo/> .
+
+#Projekte
+
+p:0001 a foaf:project ;
+    rdfs:label "Andreas Okopenko: Tagebücher aus dem Nachlass (Hybridedition)" ;
+#http://germanistik.univie.ac.at/institut/projekte/andreas-okopenko-tagebuecher-aus-dem-nachlass-hybridedition/
+    frapo:hasFundingAgency <http://d-nb.info/gnd/2054142-9> ;
+    # VS frapo:isfundedby??
+    frapo:hasGrantNumber "P28344" .
+
+
+
+p:0002 a foaf:project ;
+    rdfs:label "Arthur Schnitzler - Kritische Edition (Frühwerk) II" ;
+#http://germanistik.univie.ac.at/institut/projekte/arthur-schnitzler-kritische-edition-fruehwerk-ii/
+    frapo:hasFundingAgency <http://d-nb.info/gnd/2054142-9> .
+
+
+
+p:0003 a foaf:project ;
+    rdfs:label "Atlas der Wiener Avantgarden (AVA)" .
+#http://germanistik.univie.ac.at/institut/projekte/atlas-der-wiener-avantgarden-ava/
+
+p:0004 a foaf:project ;
+    rdfs:label "Kakanien revisited" .
+#http://germanistik.univie.ac.at/institut/projekte/kakanien/
+#http://www.kakanien-revisited.at/
+
+
+p:0005 a foaf:project ;
+    rdfs:label "Bibliothek als Text. Bestand und Bestandsgeschichte der Stiftsbibliothek Kremsmünster" .
+#“Die Vernetzung und Dynamik des Handschriftenbestandes soll auch in einer Internetpräsentation visualisiert werden”
+#http://germanistik.univie.ac.at/institut/projekte/die-bibliothek-als-text/
+
+p:0006 a foaf:project ;
+    rdfs:label "Campus Medius. Medialität als Erfahrung. 1683–1933" .
+#http://germanistik.univie.ac.at/institut/projekte/campus-medius-medialitaet-als-erfahrung/
+#http://campusmedius.net/
+
+
+p:0007 a foaf:project ;
+    rdfs:label "Digital Literacy Instructor (DigLin)" .
+#http://germanistik.univie.ac.at/institut/projekte/digital-literacy-instructor-diglin/
+
+
+p:0008 a foaf:project ;
+    rdfs:label "Digitales Verfasserlexikon" .
+#http://germanistik.univie.ac.at/institut/projekte/digitales-verfasserlexikon/
+
+
+p:0009 a foaf:project ;
+    rdfs:label "Kommentierte Werkausgabe Werner Kofler (Prosa)" .
+#http://germanistik.univie.ac.at/institut/projekte/kommentierte-werkausgabe-werner-kofler-prosa/
+
+
+p:0010 a foaf:project ;
+    rdfs:label "Mediologie als Literaturwissenschaft" .
+#http://germanistik.univie.ac.at/institut/projekte/mediologie-als-literaturwissenschaft/
+
+
+p:0011 a foaf:project ;
+    rdfs:label "Das 'Paderborner Repertorium'. Die deutschsprachige Textüberlieferung des 8. bis 12. Jahrhunderts im Internet." .
+#http://germanistik.univie.ac.at/institut/projekte/das-paderborner-repertorium-die-deutschsprachige-textueberlieferung-des-8-bis-12-jahrhunderts-im-internet/
+#www.paderborner-repertorium.de
+
+p:0012 a foaf:project ;
+    rdfs:label "Vom Privatdruck zum Bestseller. Die Druckgeschichte des Theuerdank" .
+#Hochwertige Digitalisate aller Theuerdankdrucke wurden im Zuge der Projektvorbereitung angeschafft und werden – neben den bereits online verfügbaren Drucken – als digitale ‚Theuerdank'- Bibliothek in Form einer kommentierten Linksammlung bereitgestellt.
+#http://germanistik.univie.ac.at/institut/projekte/vom-privatdruck-zum-bestseller/
+
+p:0013 a foaf:project ;
+    rdfs:label "Die Schaltstelle Hans Weigel. Netzwerke, Konflikte, Positionierungen im Feld der österreichischen Nachkriegsliteratur" .
+#http://germanistik.univie.ac.at/institut/projekte/die-schaltstelle-hans-weigel-netzwerke-konflikte-positionierungen-im-feld-der-oesterreichischen-nachkriegsliteratur/
+#http://www.hans-weigel.at/karte-weigels-wien/
+
+p:0014 a foaf:project ;
+    rdfs:label "SFB 'Deutsch in Österreich' (DiÖ): Variation – Kontakt – Perzeption" .
+    # http://dioe.at/
+
+
+p:0015 a foaf:project ;
+    rdfs:label "Syntax hessischer Dialekte (SyHD)" .
+#http://germanistik.univie.ac.at/institut/projekte/syntax-hessischer-dialekte-syhd/
+#http://www.syhd.info/startseite/
+
+
+p:0016 a foaf:project ;
+    rdfs:label "Transdifferenz in der Literatur deutschsprachiger Migrantinnen in Österreich-Ungarn"
+#http://germanistik.univie.ac.at/institut/projekte/transdifferenz-in-der-literatur-deutschsprachiger-migrantinnen-in-oesterreich-ungarn/
+#http://www.univie.ac.at/transdifferenz/
+
+
+p:0017 a foaf:project ;
+    rdfs:label "UNTIS: Untertitel als Sprachlernwerkzeug" .
+#Das Potential von Untertiteln für das Sprachenlernen wird im Auftrag des Vereins "fürSPRACHE, Verein zur sprachlichen und kulturellen Integration von MigrantInnen" erforscht, der die Entwicklung einer neuen App für mobile Endgeräte (http://www.uugot.it) begleitet, das die automatische Untertitelung von Fernsehsendungen ermöglichen und über diverse Zusatzfunktionen wie das Speichern von neuem Wortschatz verfügen soll. Ein wichtiges Einsatzgebiet des neuen Tools soll die Verbesserung der medialen Teilhabe von Einwanderer_innen sein, die noch nicht gut Deutsch sprechen.
+#http://germanistik.univie.ac.at/institut/projekte/untis-untertitel-als-sprachlernwerkzeug/
+
+
+p:0018 a foaf:project ;
+    rdfs:label "Datenbank literarischer Bildzitate" .
+#http://www.univie.ac.at/bildzitat/
+
+
+#ACDH-Projektliste:
+p:0019 a foaf:project ;
+    rdfs:label "Mecmua. Historical texts of the early modern Ottoman period constitute an absolute rarity in the digital world." .
+#http://acdh.ac.at/?node=dha:15
+
+p:0020 a foaf:project ;
+    rdfs:label "Reassembling the Republic of Letters" .
+#http://acdh.ac.at/?node=dha:48
+
+
+p:0021 a foaf:project ;
+    rdfs:label "Vienna-Oxford International Corpus of English" .
+#https://www.univie.ac.at/voice/
+
+
+p:0022 a foaf:project ;
+    rdfs:label "Hungarus Digitalis. Digitale Quellenedition - Königreich Ungarn" .
+#http://www.univie.ac.at/hungdigi/foswiki/bin/view.cgi/DigiHung
+
+
+p:0023 a foaf:project ;
+    rdfs:label "A Comprehensive Edition of Tocharian Manuscripts" .
+#http://www.univie.ac.at/tocharian/
+
+p:0024 a foaf:project ;
+    rdfs:label "Ludwig Tiecks Bibliothek. Anatomie einer romantisch-komparatistischen Büchersammlung" .
+#Das Ziel dieses Projektes ist die virtuelle Rekonstruktion der berühmten Bibliothek (ca. 9000 Bände) des deutschen Romantikers Ludwig Tieck (1773-1853).
+#http://complit.univie.ac.at/forschungsprojekte-und-schwerpunkte/ludwig-tiecks-bibliothek-anatomie-einer-romantisch-komparatistischen-buechersammlung/
+
+
+#Musikwissenschaft
+p:0025 a foaf:project ;
+    rdfs:label "Ludwig Senfl: Sämtliche Werke (New Senfl Edition) I: Die Motetten für 4 und 5 Stimmen" .
+#http://musikwissenschaft.univie.ac.at/projekte/ludwig-senfl-ii/
+#http://www.senflonline.com/
+
+p:0026 a foaf:project ;
+    rdfs:label "Entwicklung eines tonhöhen- und dynamikunabhängigen Modells zur Erfassung von Klangfarbenähnlichkeiten" .
+#http://musikwissenschaft.univie.ac.at/projekte/klangfarbenaehnlichkeiten/
+
+p:0027 a foaf:project ;
+    rdfs:label "Die Hofkapelle von Maximilian I. zwischen Kunst und Politik" .
+#Das Projekt wird auch eine Prosopographie (eine biographische Datenbank) aufbauen, die sämtliche Sänger, Organisten und Komponisten im Dienst von Maximilians Kapelle umfasst. In dieser Datenbank werden nicht nur neue und diplomatisch getreue Transkriptionen aller bisher publizierten Dokumente zugänglich gemacht (bisher sind diese oft nur unvollständig oder fehlerhaft publiziert). Es werden auch neue Archivmaterialien präsentiert, die bislang von der Musikwissenschaft nicht systematisch ausgewertet wurden.
+#http://musikwissenschaft.univie.ac.at/projekte/hofkapelle-maximilian/
+
+
+p:0028 a foaf:project ;
+    rdfs:label "Die Musikbibliothek von Kurfürst Maximilian Franz: Identifizierung der erhaltenen geistlichen Musikquellen samt einer Rekonstruktion ihrer Verwendung, 1784-1794" .
+#Die erste Phase des Projekts umfasst eine systematische Identifizierung der musikalischen Quellen, ihrer Papiere und Kopisten; die Ergebnisse werden in einer online-Datenbank zugänglich gemacht.
+#http://musikwissenschaft.univie.ac.at/projekte/musicmaximilianfranz/
+
+
+#Orientalistik
+p:0029 a foaf:project ;
+    rdfs:label "Sprachliche Dynamik im Großraum Tunis: Ein korpusbasierter Ansatz" .
+#Neben dem Hauptziel der Beschreibung der Sprache der unmittelbaren Gegenwart soll das Projekt zu zwei konkreten Produkten führen: einem repräsentativen digitalen Korpus, das auf authen­tischen und spontanen Gesprächen basiert, und einem darauf aufbauenden digitalen Wörterbuch
+#http://orientalistik.univie.ac.at/de/forschung/projekte/
+
+
+p:0030 a foaf:project ;
+    rdfs:label "Vienna Observatory of applied Research on Terrorism and Extremism (VORTEX)" .
+#Dieses Forschungsprojekt unternimmt den Versuch auf der Grundlage einer systematischen Erforschung dschihadistischer Onlineaktivitäten, Strategien und Inhalte die Rahmenbedingungen für die Entwicklung alternativer Formen von islamischer Onlineaktivität zu entwickeln.
+#Praktisch umgesetzt wird dies in Kooperation mit dem in Indonesien basierten Projektpartner, über den in Zusammenarbeit mit indonesischen Gelehrten der welweit größten muslimischen Organisation, der Nahdutul Ulama (NU), entsprechende alternative Inhalte etc. produziert und online gestellt werden.
+#http://www.vortex.univie.ac.at
+
+
+#Sprachwissenschaft
+p:0031 a foaf:project ;
+    rdfs:label "Eine interaktive Online-Edition der rätischen Inschriften" .
+#Ziel des Projekts ist eine vollständige Sammlung, Präsentation und linguistische Analyse der rätischen Inschriften in Form einer Online-Datenbank vom MediaWiki-Typ. Im Rahmen dieser web-basierten interaktiven Plattform wird das gesammelte Material gespeichert, aufbereitet und präsentiert.
+#http://linguistics.univie.ac.at/forschung/laufende-projekte/
+
+
+p:0032 a foaf:project ;
+    rdfs:label "Wörterbuch der altirischen Priscianglossen" .
+#(1) Erstellung einer Datenbank, in der alle Einträge entsprechend ihren grammatischen Funktionen und ihrer Bedeutung analysiert werden.
+#(4) Parallel dazu wird eine Online-Datenbank, die alle Glossen der St. Galler Handschrift enthält, mit ausführlichem grammatikalischem Tagging versehen. Diese Datenbank (erstellt von Dr Pádraic Moran, National University of Ireland, Galway) wird im Internet ohne Zugangsbeschränkungen bereitgestellt werden.
+#http://linguistics.univie.ac.at/forschung/laufende-projekte/
+
+
+#Zentrum für Translationswissenschaft??
+p:0032 a foaf:project ;
+    rdfs:label "Kollaborative Online-Forschungsplattform 'Deutsch in Österreich'" .
+#https://transvienna.univie.ac.at/forschung/laufende-projekte/dioe/
+
+
+p:0033 a foaf:project ;
+    rdfs:label "Language Technology Observatory" .
+#https://transvienna.univie.ac.at/forschung/laufende-projekte/lt-observatory/
